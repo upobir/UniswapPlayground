@@ -1,13 +1,8 @@
-## Foundry
+## Triple Token Uniswap
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
-
-Foundry consists of:
-
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+- [x] Deploy 3 different erc20 tokens. Say A, B and C.
+- [x] Make uniswap v2 pool all three. A-B, B-C and C-A. All three should have different initial prices.
+- [ ] Write a contract which can swap between these 3 tokens at best price
 
 ## Documentation
 
